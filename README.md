@@ -140,7 +140,7 @@ func _physics_process(delta):
     elif Input.is_action_pressed("move_right"):
     direction += transform.basis.x
             
-       direction = direction.normalized()
+    direction = direction.normalized()
     h_velocity = h_velocitylinear_interpolate(direction *speed, h_acceleration * delta)
     movement.z = h_velocity.z +gravity_vec.z
     movement.x = h_velocity.x +gravity_vec.x

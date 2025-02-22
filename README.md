@@ -1,9 +1,11 @@
 # Random_Maze_Generator
  ## A simple adjustable maze with FPS controller in GODOT 3
 
- This is a simple maze generator with **height**, **width** and **cell** size(spaciing between walls) options so that it can generate unique mazes.
+ <h3 style = 'font-size : 20px'> You can check out my games <a href = 'https://pratham-talukdar.itch.io/'>here</a></h3>
 
- Also the algorithm is made in such a manner that every time the game **reloads**, you will get a **random** maze every time. Altough large scale maze generation **may be heavy** depending upon your **system configurations**.
+ This is a simple maze generator with **height**, **width** and **cell** size(spacing between walls) options so that you can generate unique mazes every time with different parameters.
+
+ Also the algorithm is made in such a manner that every time the game **reloads**, you will get a **random** maze. Altough large scale maze generation **may be heavy** depending upon your **system configurations**.
 
  ### Here is the maze generation code
  ```gdscript
